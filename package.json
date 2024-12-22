@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://amruthbalu.github.io/DSA-Website/",
+  "homepage": "https://amruthbalu.github.io/DSA-Website/",
   "name": "blogpost",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
@@ -20,7 +20,6 @@
     "markdown-to-jsx": "^7.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-    
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
