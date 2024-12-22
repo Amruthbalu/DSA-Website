@@ -1,22 +1,36 @@
 {
   "homepage": "https://amruthbalu.github.io/DSA-Website/",
+<<<<<<< HEAD
   "name": "dsawebsite",
+=======
+  "name": "blogpost",
+>>>>>>> 78eab55e0341ac9e9d41216903621c267dce9a81
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+<<<<<<< HEAD
     "lint": "eslint .",
+=======
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+>>>>>>> 78eab55e0341ac9e9d41216903621c267dce9a81
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.6",
+    "@mui/material": "^5.15.6",
+    "markdown-to-jsx": "^7.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@eslint/js": "^9.15.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
@@ -28,5 +42,16 @@
     "gh-pages": "^6.2.0",
     "globals": "^15.12.0",
     "vite": "^6.0.1"
+=======
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "gh-pages": "^6.2.0",
+    "vite": "^5.0.8"
+>>>>>>> 78eab55e0341ac9e9d41216903621c267dce9a81
   }
 }
